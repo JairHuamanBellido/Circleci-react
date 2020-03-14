@@ -1,18 +1,13 @@
-import React, { Fragment } from 'react';
-import Name from "./Name";
+import React from 'react';
+
 
 
 class App extends React.Component {
 
-    constructor(props) {
-        super(props)
-    }
-
+ 
     render() {
         return (
-            <Fragment>
-                <Name name="hola"/>
-            </Fragment>
+           <h1>Hola mundo</h1>
         );
     }
 }
