@@ -6,7 +6,7 @@ import Name from "./Name";
 
 describe('My Test Suite', () => {
   it('My Test Case', () => {
-    expect(false).toEqual(true);
+    expect(true).toEqual(true);
   });
 });
 
