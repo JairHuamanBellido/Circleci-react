@@ -10,11 +10,3 @@ describe('My Test Suite', () => {
   });
 });
 
-
-describe('Name', ()=>{
-  it('Contain Name', ()=>{
-    const component = renderer.create( <Name name="hola"/>);
-    let tree =  component.toJSON();
-    expect(tree).toMatchSnapshot();
-  })
-})
